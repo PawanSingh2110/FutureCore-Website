@@ -1,0 +1,45 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+@media (min-width: 375px ) {
+  body{
+    background-color: whitesmoke;
+    padding-top: 100px;
+  
+    
+  }
+ 
+  
+}
+
+
+body{
+  background-color: whitesmoke;
+  padding-top: 120px;
+
+  
+}
+
+
+.hero{
+  background-image: url("../src/assets/banner.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  
+}
+
+hero.cont{
+  display: flex;
+}
+
+
+.app{
+  width: 80%;
+  margin: 0 auto;
+}
